@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uJ4/JfAod125YmSUpYppg7V2FTqvRYRxP4J16jp9XEclqqepbeIOje713c3H814uCmH9maqJRyBzrXFhx/Ip6g==",
+  "dgSpecHash": "IHfVh6tXiPrf4YmZym9ZlQ9SWOtIRarhgANyMATZTHynlttdFJwEYgd8jYssxFwHCW/73DRBjzzwXlyv38wXuw==",
   "success": true,
   "projectFilePath": "C:\\azure-microservices\\Lil.Customers.Tests\\Lil.Customers.Tests.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,7 @@
     "C:\\Users\\Maira\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Maira\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.7.1\\microsoft.testplatform.objectmodel.16.7.1.nupkg.sha512",
     "C:\\Users\\Maira\\.nuget\\packages\\microsoft.testplatform.testhost\\16.7.1\\microsoft.testplatform.testhost.16.7.1.nupkg.sha512",
+    "C:\\Users\\Maira\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\Maira\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Maira\\.nuget\\packages\\mstest.testadapter\\2.1.1\\mstest.testadapter.2.1.1.nupkg.sha512",
     "C:\\Users\\Maira\\.nuget\\packages\\mstest.testframework\\2.1.1\\mstest.testframework.2.1.1.nupkg.sha512",

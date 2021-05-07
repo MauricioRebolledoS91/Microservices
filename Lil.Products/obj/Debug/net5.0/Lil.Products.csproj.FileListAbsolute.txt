@@ -11,7 +11,6 @@ C:\azure-microservices\Lil.Products\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\azure-microservices\Lil.Products\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\azure-microservices\Lil.Products\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\azure-microservices\Lil.Products\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\azure-microservices\Lil.Products\obj\Debug\net5.0\Lil.Products.csprojAssemblyReference.cache
 C:\azure-microservices\Lil.Products\obj\Debug\net5.0\Lil.Products.GeneratedMSBuildEditorConfig.editorconfig
 C:\azure-microservices\Lil.Products\obj\Debug\net5.0\Lil.Products.AssemblyInfoInputs.cache
 C:\azure-microservices\Lil.Products\obj\Debug\net5.0\Lil.Products.AssemblyInfo.cs
@@ -27,3 +26,4 @@ C:\azure-microservices\Lil.Products\obj\Debug\net5.0\Lil.Products.dll
 C:\azure-microservices\Lil.Products\obj\Debug\net5.0\ref\Lil.Products.dll
 C:\azure-microservices\Lil.Products\obj\Debug\net5.0\Lil.Products.pdb
 C:\azure-microservices\Lil.Products\obj\Debug\net5.0\Lil.Products.genruntimeconfig.cache
+C:\azure-microservices\Lil.Products\obj\Debug\net5.0\Lil.Products.csprojAssemblyReference.cache

@@ -1,0 +1,129 @@
+services:
+  lil.customers:
+    build:
+      context: C:\azure-microservices
+      dockerfile: Lil.Customers/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Lil.Customers
+      target: base
+    container_name: Lil.Customers
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: lilcustomers:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/Lil.Customers.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - C:\azure-microservices\Lil.Customers:/app:rw
+    - C:\Users\Maira\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Maira\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Maira\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Maira\.nuget\packages:/root/.nuget/packages:ro
+    - C:\azure-microservices:/src:rw
+  lil.products:
+    build:
+      context: C:\azure-microservices
+      dockerfile: Lil.Products/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Lil.Products
+    container_name: Lil.Products
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: lilproducts:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/Lil.Products.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - C:\azure-microservices\Lil.Products:/app:rw
+    - C:\Users\Maira\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Maira\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Maira\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Maira\.nuget\packages:/root/.nuget/packages:ro
+    - C:\azure-microservices:/src:rw
+  lil.sales:
+    build:
+      context: C:\azure-microservices
+      dockerfile: Lil.Sales/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Lil.Sales
+      target: base
+    container_name: Lil.Sales
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: lilsales:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/Lil.Sales.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - C:\azure-microservices\Lil.Sales:/app:rw
+    - C:\Users\Maira\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Maira\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Maira\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Maira\.nuget\packages:/root/.nuget/packages:ro
+    - C:\azure-microservices:/src:rw
+  lil.search:
+    build:
+      context: C:\azure-microservices
+      dockerfile: Lil.Search/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Lil.Search
+      target: base
+    container_name: Lil.Search
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: lilsearch:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net5.0/Lil.Search.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - C:\azure-microservices\Lil.Search:/app:rw
+    - C:\Users\Maira\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Maira\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Maira\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Maira\.nuget\packages:/root/.nuget/packages:ro
+    - C:\azure-microservices:/src:rw
+version: '3.4'

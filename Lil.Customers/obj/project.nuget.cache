@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "88uFiAk/wmL7/y0JtdHGc1JLpMWGvQtyfT1Z7+QMnZdkkA626Wx+XlzDbFp86E5C1ux475pxhyQpyMYHufcEeQ==",
+  "dgSpecHash": "fBuerVzW3DjNW5hJdpe0ksA/q1/utMEOXJwfVqX3BcSOW4+i/k615EstwgOVaBzwskQpgbHiwYHiLI2CcZAotg==",
   "success": true,
   "projectFilePath": "C:\\azure-microservices\\Lil.Customers\\Lil.Customers.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maira\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Maira\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Maira\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\Maira\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Maira\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Maira\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
